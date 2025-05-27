@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "67eefa2012912f774ec92517"
+  },
+  "PlayerID": 1,
+  "Username": "Goku",
+  "Email": "goku@dbz.com",
+  "Level": 99,
+  "Coins": 1000,
+  "MembershipType": "VIP",
+  "MembershipExpiry": "2026-03-29",
+  "MatchesPlayed": 200,
+  "Wins": 150,
+  "XP": 12000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec92518"
+  },
+  "PlayerID": 2,
+  "Username": "Vegeta",
+  "Email": "vegeta@dbz.com",
+  "Level": 95,
+  "Coins": 850,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 150,
+  "Wins": 120,
+  "XP": 11000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec92519"
+  },
+  "PlayerID": 3,
+  "Username": "Gohan",
+  "Email": "gohan@dbz.com",
+  "Level": 85,
+  "Coins": 700,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 180,
+  "Wins": 130,
+  "XP": 10000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251a"
+  },
+  "PlayerID": 4,
+  "Username": "Piccolo",
+  "Email": "piccolo@dbz.com",
+  "Level": 90,
+  "Coins": 900,
+  "MembershipType": "VIP",
+  "MembershipExpiry": "2026-03-29",
+  "MatchesPlayed": 190,
+  "Wins": 140,
+  "XP": 10500
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251b"
+  },
+  "PlayerID": 5,
+  "Username": "Trunks",
+  "Email": "trunks@dbz.com",
+  "Level": 80,
+  "Coins": 600,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 120,
+  "Wins": 100,
+  "XP": 9500
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251c"
+  },
+  "PlayerID": 6,
+  "Username": "Frieza",
+  "Email": "frieza@dbz.com",
+  "Level": 100,
+  "Coins": 1200,
+  "MembershipType": "VIP",
+  "MembershipExpiry": "2026-03-29",
+  "MatchesPlayed": 220,
+  "Wins": 180,
+  "XP": 13000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251d"
+  },
+  "PlayerID": 7,
+  "Username": "Cell",
+  "Email": "cell@dbz.com",
+  "Level": 98,
+  "Coins": 1100,
+  "MembershipType": "VIP",
+  "MembershipExpiry": "2026-03-29",
+  "MatchesPlayed": 210,
+  "Wins": 170,
+  "XP": 12500
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251e"
+  },
+  "PlayerID": 8,
+  "Username": "Majin Buu",
+  "Email": "buu@dbz.com",
+  "Level": 75,
+  "Coins": 500,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 100,
+  "Wins": 90,
+  "XP": 8000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec9251f"
+  },
+  "PlayerID": 9,
+  "Username": "Krillin",
+  "Email": "krillin@dbz.com",
+  "Level": 70,
+  "Coins": 450,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 90,
+  "Wins": 80,
+  "XP": 7000
+},
+{
+  "_id": {
+    "$oid": "67eefa2012912f774ec92520"
+  },
+  "PlayerID": 10,
+  "Username": "Yamcha",
+  "Email": "yamcha@dbz.com",
+  "Level": 65,
+  "Coins": 400,
+  "MembershipType": "Free",
+  "MembershipExpiry": "2025-03-29",
+  "MatchesPlayed": 70,
+  "Wins": 60,
+  "XP": 6500
+}]

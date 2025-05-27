@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "67eefc4912912f774ec9252b"
+  },
+  "PlayerID": 1,
+  "ItemsPurchased": [
+    "Saiyan Armor",
+    "Z-Sword"
+  ],
+  "PurchaseDate": "2024-04-01",
+  "TotalPrice": 1500
+},
+{
+  "_id": {
+    "$oid": "67eefc4912912f774ec9252c"
+  },
+  "PlayerID": 2,
+  "ItemsPurchased": [
+    "Saiyan Armor"
+  ],
+  "PurchaseDate": "2024-04-02",
+  "TotalPrice": 500
+},
+{
+  "_id": {
+    "$oid": "67eefc4912912f774ec9252d"
+  },
+  "PlayerID": 3,
+  "ItemsPurchased": [
+    "Z-Sword",
+    "Dragon Radar"
+  ],
+  "PurchaseDate": "2024-04-03",
+  "TotalPrice": 1300
+},
+{
+  "_id": {
+    "$oid": "67eefc4912912f774ec9252e"
+  },
+  "PlayerID": 4,
+  "ItemsPurchased": [
+    "Dragon Radar"
+  ],
+  "PurchaseDate": "2024-04-04",
+  "TotalPrice": 300
+}]

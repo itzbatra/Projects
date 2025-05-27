@@ -1,0 +1,11 @@
+PlayerID,Username,Email,Level,Coins,MembershipType,MembershipExpiry,MatchesPlayed,Wins,XP,PurchasedItems,ItemPrices
+1,Goku,goku@dbz.com,99,1000,VIP,3/29/2026,200,150,12000,"Saiyan Armor, Z-Sword","500, 1000"
+2,Vegeta,vegeta@dbz.com,95,850,Free,3/29/2025,150,120,11000,Saiyan Armor,500
+3,Gohan,gohan@dbz.com,85,700,Free,3/29/2025,180,130,10000,"Z-Sword, Dragon Radar","1000, 300"
+4,Piccolo,piccolo@dbz.com,90,900,VIP,3/29/2026,190,140,10500,Dragon Radar,300
+5,Trunks,trunks@dbz.com,80,600,Free,3/29/2025,120,100,9500,Saiyan Armor,500
+6,Frieza,frieza@dbz.com,100,1200,VIP,3/29/2026,220,180,13000,"Z-Sword, Dragon Radar, Saiyan Armor","1000, 300, 500"
+7,Cell,cell@dbz.com,98,1100,VIP,3/29/2026,210,170,12500,"Saiyan Armor, Dragon Radar","500, 300"
+8,Majin Buu,buu@dbz.com,75,500,Free,3/29/2025,100,90,8000,Z-Sword,1000
+9,Krillin,krillin@dbz.com,70,450,Free,3/29/2025,90,80,7000,Dragon Radar,300
+10,Yamcha,yamcha@dbz.com,65,400,Free,3/29/2025,70,60,6500,Saiyan Armor,500

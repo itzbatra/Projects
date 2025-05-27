@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92521"
+  },
+  "ItemID": 1,
+  "ItemName": "Saiyan Armor",
+  "Price": 500
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92522"
+  },
+  "ItemID": 2,
+  "ItemName": "Z-Sword",
+  "Price": 1000
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92523"
+  },
+  "ItemID": 3,
+  "ItemName": "Dragon Radar",
+  "Price": 300
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92524"
+  },
+  "ItemID": 4,
+  "ItemName": "Power Boost",
+  "Price": 700
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92525"
+  },
+  "ItemID": 5,
+  "ItemName": "Instant Transmission",
+  "Price": 1200
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92526"
+  },
+  "ItemID": 6,
+  "ItemName": "Sensu Beans",
+  "Price": 200
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92527"
+  },
+  "ItemID": 7,
+  "ItemName": "Kaioken Power-Up",
+  "Price": 1500
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92528"
+  },
+  "ItemID": 8,
+  "ItemName": "Majin Mark",
+  "Price": 800
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec92529"
+  },
+  "ItemID": 9,
+  "ItemName": "Energy Shield",
+  "Price": 600
+},
+{
+  "_id": {
+    "$oid": "67eefa8012912f774ec9252a"
+  },
+  "ItemID": 10,
+  "ItemName": "Super Saiyan Aura",
+  "Price": 1000
+}]
