@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deal Blaster</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <button class="menu-btn" onclick="toggleSidebar()">☰ Menu</button>
+      <input type="text" placeholder="Search for deals..." class="search-bar" />
+    </div>
+    <nav class="nav">
+      <a href="#" onclick="displayProducts(products)">Home</a>
+      <div class="dropdown">
+        <div class="dropbtn">Best Deals</div>
+        <div class="dropdown-content">
+          <a href="#">Under $50</a>
+          <a href="#">Top Rated</a>
+          <a href="#">Bundle Offers</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">Categories</div>
+        <div class="dropdown-content">
+            <a href="#" onclick="filterProducts('Processors')">Processors</a>
+            <a href="#" onclick="filterProducts('Graphics Cards')">Graphics Cards</a>
+            <a href="#" onclick="filterProducts('Laptops')">Laptops</a>
+            <a href="#" onclick="filterProducts('Storage')">Storage</a>
+            <a href="#" onclick="filterProducts('Peripherals')">Peripherals</a>
+            <a href="#" onclick="filterProducts('Audio')">Audio</a>
+            <a href="#" onclick="filterProducts('Home Entertainment')">Home Entertainment</a>
+            <a href="#" onclick="filterProducts('Phones')">Phones</a>
+            <a href="#" onclick="filterProducts('Wearables')">Wearables</a>
+            <a href="#" onclick="filterProducts('All')">All</a>
+        </div>
+      </div>
+      <a href="#">Contact</a>
+      <div class="dropdown">
+        <div class="dropbtn">Account</div>
+        <div class="dropdown-content">
+          <a href="login.html">Sign In</a>
+          <a href="register.html">Register</a>
+          <a href="orders.html">Orders</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li onclick="filterProducts('All')">🔥 Today's Hot Deals</li>
+      <li>✉ Email Offers</li>
+      <li>🛠 Customize Your PC</li>
+      <li>🏆 Best Sellers</li>
+      <li>📦 New Arrivals</li>
+      <li>🎮 Gaming Rig Upgrades</li>
+      <li>🏢 Business Solutions</li>
+      <li>🛍 Featured Sellers</li>
+    </ul>
+  </div>
+  <section class="welcome">
+    <h1>Welcome to Deal Blaster!</h1>
+    <p>Discover the latest tech deals, exclusive offers, and best-selling gadgets all in one place.</p>
+  </section>
+
+  <!-- Advertisement Banner -->
+  <section class="advertisement">
+    <div class="ad-banner">
+      <h3>🔥 Limited Time Offer! 🔥</h3>
+      <p>Save up to 70% on selected electronics. Hurry, offer ends soon!</p>
+      <button onclick="window.location.href='#'">Shop Now</button>
+    </div>
+  </section>
+  <!-- Product Section -->
+  <section class="product-list">
+    <h2>Featured Gadgets</h2>
+    <div class="products" id="product-container"></div>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <button onclick="submitOrder()">Submit Order</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>About Deal Blaster</h3>
+        <p>Your one-stop shop for the latest and greatest tech deals!</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Stay Connected</h3>
+        <p>Follow us on:</p>
+        <a href="#">📘 Facebook</a> | <a href="#">🐦 Twitter</a> | <a href="#">📸 Instagram</a>
+      </div>
+    </div>
+    <p class="footer-note">© 2025 Deal Blaster. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
