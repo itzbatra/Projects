@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>SID</th>
+            <th>User ID</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% Object.entries(sessions).forEach(([sid, sess])=> { %>
+            <tr>
+                <td>
+                    <%= sid %>
+                </td>
+                <td>
+                    <%= sess.passport?.user %>
+                </td>
+                <td>
+                    <form method="POST" action="/admin/revoke/<%= sid %>">
+                        <button type="submit">Revoke</button>
+                    </form>
+                </td>
+            </tr>
+            <% }) %>
+    </tbody>
+</table>

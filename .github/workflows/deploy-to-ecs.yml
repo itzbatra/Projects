@@ -1,0 +1,16 @@
+name: Deploy to ECS (template)
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Docker images
+        run: echo "Build steps here"
+      - name: Push to ECR
+        run: echo "Push to ECR steps (configure AWS credentials)"
+      - name: Deploy to ECS
+        run: echo "Deploy steps (update task definition)"
