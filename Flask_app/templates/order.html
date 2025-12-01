@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Order #{{ order.id }}{% endblock %}
+
+{% block content %}
+
+<h1>Order #{{ order.id }}</h1>
+
+<p>Customer:
+    <a href="{{ url_for('customer_detail', id=order.customer.id) }}">
+        {{ order.customer.name }}
+    </a>
+</p>
+
+<p>Created: {{ order.created }}</p>
+
+{% if order.completed %}
+<p><b>Status:</b> Completed ({{ order.completed }})</p>
+<p><b>Total:</b> ${{ "%.2f"|format(order.amount) }}</p>
+{% else %}
+<p><b>Status:</b> Pending</p>
+{% endif %}
+
+<h2>Items</h2>
+
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>In Stock</th>
+        <th>Total</th>
+    </tr>
+
+    {% for p in order.items %}
+    <tr {% if p.quantity > p.product.inventory %}class="bad"{% endif %}>
+        <td>{{ p.product.name }}</td>
+        <td>${{ "%.2f"|format(p.product.price) }}</td>
+        <td>{{ p.quantity }}</td>
+        <td>{{ p.product.inventory }}</td>
+        <td>${{ "%.2f"|format(p.line_total()) }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<p><b>Estimated Total:</b> ${{ "%.2f"|format(order.estimate()) }}</p>
+
+{% if not order.completed %}
+<form method="post" action="{{ url_for('complete_order', id=order.id) }}">
+    <button type="submit">Complete Order</button>
+</form>
+{% endif %}
+
+{% endblock %}

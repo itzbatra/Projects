@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+<h1>Products</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Inventory</th>
+        <th>Category</th>
+    </tr>
+
+    {% for p in products %}
+    <tr>
+        <td>{{ p.name }}</td>
+        <td>${{ "%.2f"|format(p.price) }}</td>
+        <td>{{ p.inventory }}</td>
+        <td>{{ p.category.name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
